@@ -1,0 +1,11 @@
+:root {
+    --main-bg-color:  #111111;
+    --main-txt-color: #f6f6f6;
+    --bt-txt-color:   #FFcb74;
+    --second-txt-color:#2f2f2f;
+  }
+
+  h1   {color: var(--main-bg-color);}
+  h2   {color: var(--main-txt-color);}
+  h3   {color: var(--bt-txt-color);}
+  h3   {color: var(--second-txt-color);}
