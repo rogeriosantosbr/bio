@@ -21,13 +21,13 @@ body {
   }
   
   .typing-demo {
-    width: 200ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 125ch;
+    animation: typing 10s steps(100), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 1,9em;
     
     
   }
