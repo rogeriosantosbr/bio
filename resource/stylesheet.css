@@ -6,7 +6,40 @@
     --second-txt-color:#2f2f2f;
   }
 
-  h1   {color: var(--main-bg-color);}
-  h2   {color: var(--main-txt-color);}
-  h3   {color: var(--txt-color);}
-  h3   {color: var(--second-txt-color);}
+body {
+      background-color:#000000;
+      color:#49f804;
+      
+}
+
+
+  .wrapper {
+    height: 200vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+  }
+  
+  .typing-demo {
+    width: 28ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    
+    
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
